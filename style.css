@@ -6,7 +6,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: black;
+    background-color: #000915;;
 
 }
 
@@ -37,4 +37,36 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.games {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+}
+
+.item {
+    height: 300px;
+    grid-column: span 4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
+.games__item1 {
+    background-image: url(img/item1.jpg);
+}
+
+.games__item2 {
+    background-image: url(img/item2.jpg);
+}
+
+
+.games__item3 {
+    background-image: url(img/item3.jpg);
+
 }
