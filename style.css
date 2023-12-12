@@ -7,8 +7,6 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #000915;
-    ;
-
 }
 
 a {
@@ -25,7 +23,6 @@ a {
     background-image: url(img/top_bgi.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 
 .header {
@@ -43,6 +40,7 @@ a {
 
 .top__text {
     padding-top: 32px;
+    padding-bottom: 44px;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -51,6 +49,24 @@ a {
 
 .top__text_bold {
     font-weight: 700;
+}
+
+.top__button {
+    width: 234px;
+    height: 48px;
+    border-radius: 30px;
+    background: #9C0332;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.top__button:hover {
+    background: #EB443F;
 }
 
 .games {
@@ -70,7 +86,6 @@ a {
     border-radius: 16px;
 }
 
-
 .games__item1 {
     background-image: url(img/item1.jpg);
 }
@@ -79,8 +94,6 @@ a {
     background-image: url(img/item2.jpg);
 }
 
-
 .games__item3 {
     background-image: url(img/item3.jpg);
-
 }
