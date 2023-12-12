@@ -84,6 +84,23 @@ a {
     background-position: center;
     background-size: cover;
     border-radius: 16px;
+    position: relative;
+}
+
+.item:hover {
+    border: 3px solid #44D2FF;
+}
+
+.item-label {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #FFF;
+    font-family: Montserrat;
 }
 
 .games__item1 {
