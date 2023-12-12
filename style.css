@@ -77,9 +77,13 @@ a {
     gap: 32px;
 }
 
+.games__link {
+    display: block;
+    grid-column: span 4;
+}
+
 .item {
     height: 300px;
-    grid-column: span 4;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
