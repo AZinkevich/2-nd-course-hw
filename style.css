@@ -6,7 +6,8 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #000915;;
+    background-color: #000915;
+    ;
 
 }
 
@@ -28,6 +29,7 @@ a {
 }
 
 .header {
+    max-width: 788px;
     padding-top: 217px;
     color: #ffffff;
 }
@@ -37,6 +39,18 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.top__text {
+    padding-top: 32px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.top__text_bold {
+    font-weight: 700;
 }
 
 .games {
