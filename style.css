@@ -39,6 +39,7 @@ a {
 }
 
 .header__text {
+    max-width: 500px;
     padding-top: 32px;
     padding-bottom: 44px;
     font-size: 18px;
@@ -140,17 +141,34 @@ a {
 
     .header__title {
         text-align: center;
-        font-size: 32px;
+
     }
 
     .header__text {
         text-align: center;
-        font-size: 14px;
-        line-height: 22px;
         padding: 0;
     }
 
     .item {
         width: 343px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1239px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 32px;
+    }
+
+    .header__text {
+        max-width: 420px;
+        font-size: 14px;
+        line-height: 22px;
     }
 }
