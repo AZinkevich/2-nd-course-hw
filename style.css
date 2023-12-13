@@ -38,7 +38,7 @@ a {
     line-height: normal;
 }
 
-.top__text {
+.header__text {
     padding-top: 32px;
     padding-bottom: 44px;
     font-size: 18px;
@@ -47,11 +47,11 @@ a {
     line-height: 32px;
 }
 
-.top__text_bold {
+.header__text_bold {
     font-weight: 700;
 }
 
-.top__button {
+.header__button {
     width: 234px;
     height: 48px;
     border-radius: 30px;
@@ -65,7 +65,7 @@ a {
     border: none;
 }
 
-.top__button:hover {
+.header__button:hover {
     background: #EB443F;
 }
 
@@ -117,4 +117,37 @@ a {
 
 .games__item3 {
     background-image: url(img/item3.jpg);
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 735px;
+        background-image: url(img/top_bgi_mob.jpg);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .header__text {
+        text-align: center;
+        font-size: 14px;
+        padding: 0;
+    }
 }
