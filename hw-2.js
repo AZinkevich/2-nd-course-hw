@@ -45,5 +45,23 @@ let age = Number(prompt('Сколько вам лет?'));
 alert(age);
 
 //task9.0
-let user {name: Alex;
+const user = {
+    name: 'Alex',
+    age: 47,
+    isAdmin: true
 }
+
+//task9.1
+user['city of residence'] = false;
+
+//task9.2
+user.age = 48;
+
+//task9.3
+delete user['city of residence'];
+
+//task9.4
+let info = prompt(`Какую информацию хотите узнать о пользователе?`);
+alert(user[info]);
+
+//task10
