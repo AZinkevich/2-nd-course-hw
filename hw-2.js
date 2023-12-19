@@ -65,3 +65,5 @@ let info = prompt(`Какую информацию хотите узнать о 
 alert(user[info]);
 
 //task10
+let name10  = prompt('Введи свое имя');
+alert(`Привет, ${name10}!`);
