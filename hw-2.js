@@ -36,8 +36,10 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num = ++num;
-num = --num;
+num = num++;
+console.log(num);
+num = num--;
+console.log(num);
 alert(num);
 
 //task8
@@ -46,13 +48,13 @@ alert(age);
 
 //task9.0
 const user = {
-  name: "Alex",
+  name: "Александр",
   age: 47,
   isAdmin: true,
 };
 
 //task9.1
-user["city of residence"] = false;
+user["city of residence"] = "Магадан";
 
 //task9.2
 user.age = 48;
