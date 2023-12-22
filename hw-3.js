@@ -49,3 +49,12 @@
 //     break;
 // }
 
+//task7
+let var7 = Number(prompt(`Пожалуйста, введите любое число`));
+if (Number.isNaN(var7)) {
+  console.log("Это не число!");
+} else if (var7 % 2 > 0) {
+  console.log("Это число нечетное");
+} else {
+  console.log("Это число четное");
+}
