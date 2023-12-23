@@ -36,10 +36,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num = num++;
-console.log(num);
-num = num--;
-console.log(num);
+num++;
+num--;
 alert(num);
 
 //task8
