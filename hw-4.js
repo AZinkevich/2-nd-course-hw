@@ -22,3 +22,24 @@
 //     }
 // 	monthNumber++; // Увеличиваем значение monthNumber для следующего шага на 1
 // }
+
+//task1
+// for (let count = 0; count < 2; count++) {
+//   console.log("Привет");
+// }
+
+// //task2
+// let num2 = 1;
+// while (num2 < 6) {
+//   console.log(num2);
+//   num2++;
+// }
+
+// //task3
+// let num3 = 7;
+// while (num3 < 73) {
+//   console.log(num3);
+//   num3++;
+// }
+
+//task4
