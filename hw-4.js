@@ -43,3 +43,23 @@
 // }
 
 //task4
+// const obj = {
+//   Коля: 200,
+//   Вася: 300,
+//   Петя: 400,
+// };
+
+// for (let name in obj) {
+//   console.log(`${name} - зарплата ${obj[name]} долларов.`);
+// }
+
+//task5
+let n = 1000;
+let i = 0;
+while (n > 50) {
+  n = n / 2;
+  i++;
+}
+
+console.log(n);
+console.log(i);
