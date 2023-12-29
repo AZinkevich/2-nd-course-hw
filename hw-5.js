@@ -1,93 +1,72 @@
-// function area() {
-//   return this.w * this.h;
-// }
-
-// function perimeter() {
-//   return (this.w + this.h) * 2;
-// }
-
-// const square1 = {
-//   w: 20,
-//   h: 30,
-//   a: area,
-//   p: perimeter,
-// };
-
-// const square2 = {
-//   w: 10,
-//   h: 50,
-//   a: area,
-//   p: perimeter,
-// };
-
-// console.log(square1.a());
-// console.log(square2.a());
-// console.log(square1.p());
-// console.log(square2.p());
-
 //task1
-// function min() {
-//   if (a < b) {
-//     return a;
-//   } else if (a > b) {
-//     return b;
-//   } else {
-//     return a;
-//   }
-// }
+function min() {
+  if (a < b) {
+    return a;
+  } else if (a > b) {
+    return b;
+  } else {
+    return a;
+  }
+}
 
 //task2
-// function parity() {
-//   let n = Number(prompt("Введите число"));
-//   if (n % 2 == 0) {
-//     return "Число четное";
-//   } else {
-//     return "Число нечетное";
-//   }
-// }
+function parity() {
+  let n = Number(prompt("Введите число"));
+  if (n % 2 == 0) {
+    return "Число четное";
+  } else {
+    return "Число нечетное";
+  }
+}
 
 //task3.1
-// function sq() {
-//     let n3 = Number(prompt("Введите число"));
-//     console.log(n3*n3);
-// }
+function sq() {
+    let n3 = Number(prompt("Введите число"));
+    console.log(n3*n3);
+}
 
-// sq();
+sq();
 
 //task3.2
-// function sq() {
-//     let n3 = Number(prompt("Введите число"));
-//     return n3*n3;
-// }
+function sq() {
+    let n3 = Number(prompt("Введите число"));
+    return n3*n3;
+}
 
-// sq();
+sq();
 
 //task4
-// function age() {
-//   let userAge = Number(prompt("Ваш возраст?"));
-//   if (userAge >= 0 && userAge <= 12) {
-//     alert("Привет, друг!");
-//   } else if (userAge >= 13) {
-//     alert("Добро пожаловать!");
-//   } else {
-//     alert("Вы ввели неправильное значение");
-//   }
-// }
+function age() {
+  let userAge = Number(prompt("Ваш возраст?"));
+  if (userAge >= 0 && userAge <= 12) {
+    alert("Привет, друг!");
+  } else if (userAge >= 13) {
+    alert("Добро пожаловать!");
+  } else {
+    alert("Вы ввели неправильное значение");
+  }
+}
 
-// age();
+age();
 
 //task5
-// function numbers(a, b) {
-//   if (isNaN(a) || isNaN(b)) {
-//     return "Одно или оба значения не являются числом";
-//   } else {
-//     return a * b;
-//   }
-// }
+function numbers(a, b) {
+  if (isNaN(a) || isNaN(b)) {
+    return "Одно или оба значения не являются числом";
+  } else {
+    return a * b;
+  }
+}
 
-// numbers(prompt("число а"), prompt("число b"));
+numbers(prompt("число а"), prompt("число b"));
 
 //task6
+let n = 0;
+while (n >= 0 && n <= 10) {
+  cub(n);
+  n++;
+}
+
 function cub(n) {
   if (isNaN(n)) {
     return "Переданный параметр не является числом";
@@ -96,8 +75,28 @@ function cub(n) {
   }
 }
 
-let n;
-while (n >= 0 || n < +10) {
-  cub(prompt("введите число"));
-  n++;
+//task7
+const circle1 = {
+  radius: 5,
+  area: getArea,
+  perimeter: getPerimeter,
+};
+
+const circle2 = {
+  radius: 10,
+  area: getArea,
+  perimeter: getPerimeter,
+};
+
+function getArea() {
+  return Math.PI * this.radius ** 2;
 }
+
+function getPerimeter() {
+  return Math.PI * 2 * this.radius;
+}
+
+console.log(circle1.area());
+console.log(circle2.area());
+console.log(circle1.perimeter());
+console.log(circle2.perimeter());
