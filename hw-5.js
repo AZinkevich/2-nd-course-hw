@@ -20,20 +20,20 @@ function parity() {
 }
 
 //task3.1
-function sq() {
-    let n3 = Number(prompt("Введите число"));
-    console.log(n3*n3);
+function sq31() {
+  let n3 = Number(prompt("Введите число"));
+  console.log(n3 * n3);
 }
 
-sq();
+sq31();
 
 //task3.2
-function sq() {
-    let n3 = Number(prompt("Введите число"));
-    return n3*n3;
+function sq32() {
+  let n3 = Number(prompt("Введите число"));
+  return n3 * n3;
 }
 
-sq();
+sq32();
 
 //task4
 function age() {
