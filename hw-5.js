@@ -88,3 +88,16 @@
 // numbers(prompt("число а"), prompt("число b"));
 
 //task6
+function cub(n) {
+  if (isNaN(n)) {
+    return "Переданный параметр не является числом";
+  } else {
+    return n ** 3;
+  }
+}
+
+let n;
+while (n >= 0 || n < +10) {
+  cub(prompt("введите число"));
+  n++;
+}
