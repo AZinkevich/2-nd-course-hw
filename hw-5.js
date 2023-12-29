@@ -63,3 +63,28 @@
 // sq();
 
 //task4
+// function age() {
+//   let userAge = Number(prompt("Ваш возраст?"));
+//   if (userAge >= 0 && userAge <= 12) {
+//     alert("Привет, друг!");
+//   } else if (userAge >= 13) {
+//     alert("Добро пожаловать!");
+//   } else {
+//     alert("Вы ввели неправильное значение");
+//   }
+// }
+
+// age();
+
+//task5
+// function numbers(a, b) {
+//   if (isNaN(a) || isNaN(b)) {
+//     return "Одно или оба значения не являются числом";
+//   } else {
+//     return a * b;
+//   }
+// }
+
+// numbers(prompt("число а"), prompt("число b"));
+
+//task6
