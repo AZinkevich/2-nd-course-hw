@@ -40,10 +40,26 @@
 // function parity() {
 //   let n = Number(prompt("Введите число"));
 //   if (n % 2 == 0) {
-//     return console.log("Число четное");
+//     return "Число четное";
 //   } else {
-//     return console.log("Число нечетное");
+//     return "Число нечетное";
 //   }
 // }
 
-//task3
+//task3.1
+// function sq() {
+//     let n3 = Number(prompt("Введите число"));
+//     console.log(n3*n3);
+// }
+
+// sq();
+
+//task3.2
+// function sq() {
+//     let n3 = Number(prompt("Введите число"));
+//     return n3*n3;
+// }
+
+// sq();
+
+//task4
