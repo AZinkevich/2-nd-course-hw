@@ -27,7 +27,6 @@ a {
 
 .header {
     max-width: 788px;
-    padding-top: 217px;
     color: #ffffff;
 }
 
@@ -36,6 +35,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 217px;
 }
 
 .header__text {
@@ -115,6 +115,32 @@ a {
     background-image: url(img/item3.jpg);
 }
 
+.season__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 64px;
+    padding-top: 233px;
+    padding-bottom: 233px;
+}
+
+.header_season {
+    width: 584px;
+}
+
+.text_season {
+    max-width: inherit;
+    padding-bottom: 32px;
+}
+
+.header__title_h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /*мобильные стили 375px*/
 
 @media (max-width: 425px) {
@@ -144,13 +170,23 @@ a {
 
     }
 
-    .header__text {
+    .header__text, .text_season {
         text-align: center;
         padding: 0;
+        width: 343px;
     }
 
     .item {
         width: 343px;
+    }
+
+    .season__container {
+        padding-top: 51px;
+        padding-bottom: 85px;
+    }
+
+    .season__img {
+        width: 344px;
     }
 }
 
@@ -162,13 +198,14 @@ a {
 }
 
 @media (max-width: 768px) {
-    .header__title {
+    .header__title, .header__title_h2 {
         font-size: 32px;
     }
 
-    .header__text {
+    .header__text, .text_season {
         max-width: 420px;
         font-size: 14px;
         line-height: 22px;
     }
+
 }
