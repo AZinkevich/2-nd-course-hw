@@ -51,14 +51,13 @@
         <header class="header header_season">
           <h2 class="header__title_h2">Времена года!</h2>
           <p class="header__text text_season">
-            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
+            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+            узнаете к какому времени года он относится
           </p>
-          <button class="header__button">Играть!</button>
+          <button class="header__button" onclick="season()">Играть!</button>
         </header>
         <div class="season__img">
           <svg
-            width="485"
-            height="334"
             viewBox="0 0 485 334"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -376,6 +375,22 @@
         </div>
       </div>
     </section>
-    <!-- <script src="hw-5.js"></script> -->
+    <script>
+      function season() {
+        let month = Number(prompt("Введите номер месяца"));
+        if (month === 1 || month === 2 || month === 12) {
+          return "Зима";
+        } else if (month >= 3 && month <= 5) {
+          return "Весна";
+        } else if (month >= 6 && month <= 8) {
+          return "Лето";
+        } else if (month >= 9 && month <= 11) {
+          return "Осень";
+        } else {
+          alert("Введи число от 1 до 12!");
+        }
+      }
+      console.log(season());
+    </script>
   </body>
 </html>

@@ -141,6 +141,10 @@ a {
     line-height: normal;
 }
 
+.season__img {
+    width: 485px;
+}
+
 /*мобильные стили 375px*/
 
 @media (max-width: 425px) {
@@ -180,11 +184,6 @@ a {
         width: 343px;
     }
 
-    .season__container {
-        padding-top: 51px;
-        padding-bottom: 85px;
-    }
-
     .season__img {
         width: 344px;
     }
@@ -194,6 +193,10 @@ a {
     .center {
         padding-left: 24px;
         padding-right: 24px;
+    }
+
+    .season__img {
+        width: 100%px;
     }
 }
 
@@ -206,6 +209,11 @@ a {
         max-width: 420px;
         font-size: 14px;
         line-height: 22px;
+    }
+
+    .season__container {
+        padding-top: 51px;
+        padding-bottom: 85px;
     }
 
 }
