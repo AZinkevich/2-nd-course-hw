@@ -33,16 +33,34 @@
 // console.log(arr5);
 
 //task6
-// let arr6 = [9, 8, 7, "a", 6, 5];
+// const arr6 = [9, 8, 7, "a", 6, 5];
 // arr6.sort();
 // arr6.pop();
 // console.log(arr6);
 
 //task7
-const arr7 = [9, 8, 7, 6, 5];
-let search = arr7.includes(Number(prompt("Введите число")));
-if (search == 1) {
-  alert("Угадал");
-} else {
-  alert("Не угадал");
+// const arr7 = [9, 8, 7, 6, 5];
+// let search = arr7.includes(Number(prompt("Введите число")));
+// if (search == 1) {
+//   alert("Угадал");
+// } else {
+//   alert("Не угадал");
+// }
+
+//task8
+// let str8 = 'abcdef';
+// let newArr8 = str8.split('');
+// newArr8.reverse();
+// newArr8 = newArr8.join('');
+// console.log(newArr8);
+
+//task9
+let arr9 = [
+  [1, 2, 3],
+  [4, 5, 6],
+];
+
+ let newArr9 = []
+ for (n = 0; n > 5; n++) {
+ 
 }
