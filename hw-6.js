@@ -98,3 +98,10 @@
 // console.log(getLengthWords(Arr12));
 
 //task13
+// function filterPositive(array) {
+//   let negative = array.filter((el) => el < 0);
+//   return negative;
+// }
+
+// console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
+// console.log(filterPositive([-25, 25, 0, -1000, -2])); // => [-25, -1000, -2]
