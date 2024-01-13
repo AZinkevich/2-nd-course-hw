@@ -55,7 +55,7 @@
 // console.log(newArr8);
 
 //task9
-// let arr9 = [
+// const arr9 = [
 //   [1, 2, 3],
 //   [4, 5, 6],
 // ];
@@ -68,3 +68,33 @@
 //   }
 // }
 // console.log(newArr9);
+
+//task10
+// const arr10 = [1, 3, 5, 6, 3, 8, 8, 10];
+
+// for (let q = 0; q < arr10.length - 1; q++) {
+//   let sum = arr10[q] + arr10[q + 1];
+//   console.log(sum);
+// }
+
+//task11
+// const quadFn = (Arr11) => {
+//   return Arr11.map((el) => el ** 2);
+// };
+
+// const Arr11 = [1, 2, 3, 4];
+// console.log(quadFn(Arr11));
+
+//task12
+// const getLengthWords = (Arr12) => {
+//   let newArr12 = [];
+//   Arr12.forEach((el) => {
+//     newArr12.push(el.length);
+//   });
+//   return newArr12;
+// };
+
+// const Arr12 = ["слово", "", "слог", "длинное предложение", "буква"];
+// console.log(getLengthWords(Arr12));
+
+//task13
