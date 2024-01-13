@@ -55,12 +55,16 @@
 // console.log(newArr8);
 
 //task9
-let arr9 = [
-  [1, 2, 3],
-  [4, 5, 6],
-];
+// let arr9 = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+// ];
 
- let newArr9 = []
- for (n = 0; n > 5; n++) {
- 
-}
+// let newArr9 = [];
+
+// for (let arr9In of arr9) {
+//   for (item of arr9In) {
+//     newArr9.push(item);
+//   }
+// }
+// console.log(newArr9);
