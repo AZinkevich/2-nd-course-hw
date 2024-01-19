@@ -64,46 +64,54 @@
 
 //task9
 // let currentDate9 = new Date();
-// console.log(+currentDate9);
-// let days73 = 73 * 24 * 60 * 60 * 1000;
-// console.log(days73);
-// let searchDate = +currentDate9 + days73;
-// let dayAfter73 = new Date(searchDate);
-// console.log(dayAfter73);
-
-// let currentDate9 = new Date();
 // currentDate9.setDate(currentDate9.getDate() + 73);
 // console.log(currentDate9);
 
 //task10
-function formatDate(currentDate) {
-  const days = [
-    "Воскресенье",
-    "Понедельник",
-    "Вторник",
-    "Среда",
-    "Четверг",
-    "Пятница",
-    "Суббота",
-  ];
-  const months = [
-    "Январь",
-    "Февраль",
-    "Март",
-    "Апрель",
-    "Май",
-    "Июнь",
-    "Июль",
-    "Август",
-    "Сентябрь",
-    "Октябрь",
-    "Ноябрь",
-    "Декабрь",
-  ];
+// function formatDate(currentDate) {
+//   const days = [
+//     "Воскресенье",
+//     "Понедельник",
+//     "Вторник",
+//     "Среда",
+//     "Четверг",
+//     "Пятница",
+//     "Суббота",
+//   ];
+//   const months = [
+//     "Январь",
+//     "Февраль",
+//     "Март",
+//     "Апрель",
+//     "Май",
+//     "Июнь",
+//     "Июль",
+//     "Август",
+//     "Сентябрь",
+//     "Октябрь",
+//     "Ноябрь",
+//     "Декабрь",
+//   ];
 
-  let newDate = "Дата: " + currentDate.getDate();
+//   let newDate =
+//     "Дата: " +
+//     currentDate.getDate() +
+//     " " +
+//     months[currentDate.getMonth()] +
+//     " " +
+//     currentDate.getFullYear() +
+//     " - это " +
+//     days[currentDate.getDay()] +
+//     ". Время: " +
+//     currentDate.getHours() +
+//     ":" +
+//     currentDate.getMinutes() +
+//     ":" +
+//     currentDate.getSeconds();
 
-  return newDate;
-}
+//   return newDate;
+// }
 
-console.log(formatDate(new Date()));
+// console.log(formatDate(new Date()));
+
+//task11
