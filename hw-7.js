@@ -76,4 +76,34 @@
 // console.log(currentDate9);
 
 //task10
+function formatDate(currentDate) {
+  const days = [
+    "Воскресенье",
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+  ];
+  const months = [
+    "Январь",
+    "Февраль",
+    "Март",
+    "Апрель",
+    "Май",
+    "Июнь",
+    "Июль",
+    "Август",
+    "Сентябрь",
+    "Октябрь",
+    "Ноябрь",
+    "Декабрь",
+  ];
 
+  let newDate = "Дата: " + currentDate.getDate();
+
+  return newDate;
+}
+
+console.log(formatDate(new Date()));
