@@ -29,3 +29,25 @@
 // console.log(getRandomInt(1, 10));
 
 //task5
+
+// console.log(Math.min(52, 53, 49, 77, 21, 32));
+// console.log(Math.max(52, 53, 49, 77, 21, 32));
+
+// let str5 = "52,53,49,77,21,32";
+// let arr5 = str5.split(",");
+// let newArr5 = [];
+// arr5.forEach((el) => {
+//   newArr5.push(Number(el));
+// });
+// console.log(Math.min.apply(null, newArr5));
+// console.log(Math.max.apply(null, newArr5));
+
+//task6
+function getRandomArrNumbers(maxValue) {
+  let randomArr = [];
+  for (let i = 0; i < Math.floor(maxValue / 2); i++) {
+    randomArr.push(Math.round(Math.random() * maxValue));
+  }
+  return randomArr;
+}
+console.log(getRandomArrNumbers(7), getRandomArrNumbers(12));
