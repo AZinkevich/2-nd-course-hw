@@ -14,9 +14,11 @@ function searchStart(arr, str) {
   return newArr;
 }
 
-console.log(searchStart(["Кошка", "Кит", "Комар", "Носорог"], "ко"),
-searchStart(["яблоко", "груша", "гриб", "огурец"], "гру"),
-searchStart(["Дом", "Банк", "Больница", "Театр"], "Кино"));
+console.log(
+  searchStart(["Кошка", "Кит", "Комар", "Носорог"], "ко"),
+  searchStart(["яблоко", "груша", "гриб", "огурец"], "гру"),
+  searchStart(["Дом", "Банк", "Больница", "Театр"], "Кино")
+);
 
 //task3
 const int3 = 32.58884;
@@ -38,7 +40,7 @@ console.log(Math.max.apply(null, newArr5));
 
 //task5
 function getRandomInt(minValue, maxValue) {
-  return Math.random() * (maxValue - minValue) + minValue;
+  return Math.round(Math.random() * (maxValue - minValue)) + minValue;
 }
 console.log(getRandomInt(1, 10));
 
@@ -80,18 +82,18 @@ function formatDate(currentDate) {
     "Суббота",
   ];
   const months = [
-    "Январь",
-    "Февраль",
-    "Март",
-    "Апрель",
-    "Май",
-    "Июнь",
-    "Июль",
-    "Август",
-    "Сентябрь",
-    "Октябрь",
-    "Ноябрь",
-    "Декабрь",
+    "Января",
+    "Февраля",
+    "Марта",
+    "Апреля",
+    "Мая",
+    "Июня",
+    "Июля",
+    "Августа",
+    "Сентября",
+    "Октября",
+    "Ноября",
+    "Декабря",
   ];
 
   let newDate =
@@ -130,8 +132,8 @@ function words() {
   alert(`Запомните первое и последнее слово:  ${arrWords}`);
   let firstWord = arrWords[0].toLowerCase();
   let lastWord = arrWords[arrWords.length - 1].toLowerCase();
-  let userFirstWord = prompt("Введите первое слово:").toLowerCase();
-  let userLastWord = prompt("Введите последнее слово:").toLowerCase();
+  let userFirstWord = String(prompt("Введите первое слово:")).toLowerCase();
+  let userLastWord = String(prompt("Введите последнее слово:")).toLowerCase();
   if (firstWord === userFirstWord && lastWord === userLastWord) {
     alert("Поздравляю, все верно!");
   } else if (
