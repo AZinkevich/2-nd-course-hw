@@ -23,7 +23,7 @@ a {
     background-image: url(img/top_bgi.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .header {
@@ -188,6 +188,10 @@ a {
     .season__img {
         width: 344px;
     }
+
+    .order {
+        order: 2;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 1239px) {
@@ -199,22 +203,40 @@ a {
     .season__img {
         width: 100%px;
     }
+
+    .order {
+        order: 2;
+    }
+
 }
 
 @media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
     .header__title, .header__title_h2 {
         font-size: 32px;
+        text-align: center;
     }
 
     .header__text, .text_season {
         max-width: 420px;
         font-size: 14px;
         line-height: 22px;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .season__container {
         padding-top: 51px;
         padding-bottom: 85px;
+        justify-content: center;
     }
 
 }
