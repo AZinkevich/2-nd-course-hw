@@ -49,14 +49,20 @@
 // console.log(filter(people, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
 
 //task3
-// function showDate() {
-//   let currentDate = new Date();
-//   console.log(currentDate);
-// }
-// let TimerId = setInterval(() => showDate(), 3000);
+// let TimerId = setInterval(() =>  console.log(new Date()), 3000);
 // setTimeout(() => {
 //   clearInterval(TimerId);
 //   console.log("30 секунд прошло");
 // }, 30000);
 
 //task4
+// function delayForSecond(callback) {
+//     let timerId = setTimeout(callback, 1000);
+//   //callback();
+// }
+
+// delayForSecond(function () {
+//   console.log("Привет, Глеб!");
+// });
+
+//
