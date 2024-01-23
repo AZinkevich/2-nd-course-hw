@@ -49,3 +49,14 @@
 // console.log(filter(people, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
 
 //task3
+// function showDate() {
+//   let currentDate = new Date();
+//   console.log(currentDate);
+// }
+// let TimerId = setInterval(() => showDate(), 3000);
+// setTimeout(() => {
+//   clearInterval(TimerId);
+//   console.log("30 секунд прошло");
+// }, 30000);
+
+//task4
