@@ -30,7 +30,7 @@ function isMale(item) {
 function filter(arr, ruleFunction) {
   const outArr = [];
   for (let i = 0; i < arr.length; i++) {
-    if (ruleFunction(arr[i]) == true) {
+    if (ruleFunction(arr[i])) {
       outArr.push(arr[i]);
     }
   }
@@ -79,3 +79,4 @@ function sayHi(name) {
 }
 
 delayForSecond5(() => sayHi("Глеб"));
+
