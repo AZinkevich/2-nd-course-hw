@@ -40,7 +40,7 @@ console.log(Math.max.apply(null, newArr5));
 
 //task5
 function getRandomInt(minValue, maxValue) {
-  return Math.round(Math.random() * (maxValue - minValue)) + minValue;
+  return Math.floor(Math.random() * (maxValue - minValue)) + minValue;
 }
 console.log(getRandomInt(1, 10));
 
@@ -56,7 +56,7 @@ console.log(getRandomArrNumbers(7), getRandomArrNumbers(12));
 
 //task7
 function getRandomInt7(minValue, maxValue) {
-  return Math.round(Math.random() * (maxValue - minValue)) + minValue;
+  return Math.floor(Math.random() * (maxValue - minValue)) + minValue;
 }
 
 console.log(getRandomInt7(3, 5));
@@ -105,7 +105,7 @@ function formatDate(currentDate) {
     currentDate.getFullYear() +
     " - это " +
     days[currentDate.getDay()] +
-    ". Время: " +
+    ".\nВремя: " +
     currentDate.getHours() +
     ":" +
     currentDate.getMinutes() +
