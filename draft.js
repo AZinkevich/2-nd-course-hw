@@ -86,23 +86,48 @@
 //   );
 
 //----------------------------------------------
-const timer = (deadline) => {
-    if (isNaN(+deadline)) { // + − приводим значение к number, если это NaN,
-        console.log('Передано некорректное число'); // выводим сообщение
-        return; // выходим из функции
-    }
+// const timer = (deadline) => {
+//     if (isNaN(+deadline)) { // + − приводим значение к number, если это NaN,
+//         console.log('Передано некорректное число'); // выводим сообщение
+//         return; // выходим из функции
+//     }
 
-    let time = deadline;
-    const interval = setInterval(() => {
-        time -= 1;
-        console.log(time);
-    }, 1000);
+//     let time = deadline;
+//     const interval = setInterval(() => {
+//         time -= 1;
+//         console.log(time);
+//     }, 1000);
 
-    setTimeout(() => {
-        clearInterval(interval);
-        console.log('Время истекло!')
-    }, deadline * 1000)
-};
+//     setTimeout(() => {
+//         clearInterval(interval);
+//         console.log('Время истекло!')
+//     }, deadline * 1000)
+// };
 
-const deadline = prompt('На сколько секунд вы хотите поставить таймер?');
-timer(deadline);
+// const deadline = prompt('На сколько секунд вы хотите поставить таймер?');
+// timer(deadline);
+
+// //task1
+// function str_count(a, b) {
+//     let newStr = a.split('');
+//     let filterStr = newStr.filter((str) => str.toLowerCase() === b.toLowerCase())
+//     return filterStr.length
+// }
+
+
+// //task2
+// function squarSum(arr) {
+//     let squarArr = arr.map((el) => el ** 2)
+//     let squarSumArr = squarArr.reduce((a, b) => a + b)
+//     return squarSumArr
+// }
+// squarSum([1, 2, 2])
+
+
+//task3
+function nearest_Sq(n) {
+    let Sq = Math.sqrt(n)
+    console.log(Sq)
+}
+
+nearest_Sq(56)
