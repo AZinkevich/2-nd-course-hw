@@ -69,6 +69,7 @@ a {
 
 .header__button:hover {
     background: #EB443F;
+    cursor: url(img/cursor.svg), auto;
 }
 
 .games {
@@ -90,6 +91,7 @@ a {
 
 .item:hover {
     border: 3px solid #44D2FF;
+    cursor: url(img/cursor.svg), auto;
 }
 
 .item-label {
