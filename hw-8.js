@@ -79,4 +79,3 @@ function sayHi(name) {
 }
 
 delayForSecond5(() => sayHi("Глеб"));
-
