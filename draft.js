@@ -9,7 +9,6 @@
 
 //   processUserInput(greeting);
 
-
 //----------------------------------------------------
 // function callbackWithArrayLength(arr, callback) {
 //     //console.log(arr);
@@ -114,7 +113,6 @@
 //     return filterStr.length
 // }
 
-
 // //task2
 // function squarSum(arr) {
 //     let squarArr = arr.map((el) => el ** 2)
@@ -123,11 +121,27 @@
 // }
 // squarSum([1, 2, 2])
 
-
 //task3
-function nearest_Sq(n) {
-    let Sq = Math.sqrt(n)
-    console.log(Sq)
-}
+// function nearest_Sq(n) {
+//   if (Number.isInteger(Math.sqrt(n))) {
+//     return n;
+//   } else {
+//     let up;
+//     let down;
+//     for (let u = n; !Number.isInteger(Math.sqrt(u)); u++) {
+//       up = u + 1;
+//     }
+//     for (let d = n; !Number.isInteger(Math.sqrt(d)); d--) {
+//       down = d - 1;
+//     }
+//     if (up - n > n - down) {
+//       return down;
+//     }
+//     return up;
+//   }
+// }
+// console.log(nearest_Sq(111));
 
-nearest_Sq(56)
+
+//task4
+let str = "world"
