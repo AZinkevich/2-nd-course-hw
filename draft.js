@@ -142,6 +142,29 @@
 // }
 // console.log(nearest_Sq(111));
 
+// //task3 gibrid
+// const nearest_Sq = (n) => {
+//   if (Number.isInteger(Math.sqrt(n))) {
+//     return n;
+//   } else {
+//     const nearestSquare = Math.round(Math.sqrt(n)) ** 2;
+//     return nearestSquare;
+//   }
+// };
+// console.log(nearest_Sq(143));
+
+//task3 alter
+// function nearestSq(n) {
+//   const sqrtN = Math.sqrt(n);
+//   if (sqrtN === Math.floor(sqrtN)) {
+//     return n;
+//   }
+//   const nearestSquare = Math.round(sqrtN) ** 2;
+//   return nearestSquare;
+// }
+
+// console.log(nearestSq(143));
+
 //task4
 // let str = "world";
 // let arrStr = str.split("");
@@ -168,13 +191,11 @@
 
 // console.log(mango(3, 3));
 
-
 //task7
 // const water = 0.5
 // const litres = (time) => { return Math.floor(water * time) }
 
 // console.log(litres(3))
-
 
 //task8
 // const invert = (Arr) => Arr.map(el => {
@@ -184,6 +205,5 @@
 // })
 
 // console.log(invert([1, -3, 3, -6, 0]))
-
 
 //task9
