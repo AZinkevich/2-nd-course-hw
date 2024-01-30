@@ -218,3 +218,11 @@
 // console.log(fnPow(0));
 
 //task10
+// const reduceFn = (arr) => {
+//   if (arr.length > 0) {
+//     let mult = arr.reduce((a, b) => a * b);
+//     return mult;
+//   }
+//   return;
+// };
+// console.log(reduceFn([1,2,3,4]));
