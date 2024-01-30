@@ -142,6 +142,18 @@
 // }
 // console.log(nearest_Sq(111));
 
-
 //task4
-let str = "world"
+// let str = "world";
+// let arrStr = str.split("");
+// arrStr.reverse();
+// let newStr = arrStr.join("");
+// console.log(newStr);
+
+//task5
+// function countLiter(str) {
+//   let arrStr = str.split(" ");
+//   let newArr = arrStr.map((el) => el + " " + el.length);
+//   return newArr;
+// }
+
+// console.log(countLiter("I am very hungry"));
