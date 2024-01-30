@@ -151,7 +151,7 @@
 //     return nearestSquare;
 //   }
 // };
-// console.log(nearest_Sq(143));
+// console.log(nearest_Sq(100));
 
 //task3 alter
 // function nearestSq(n) {
@@ -207,3 +207,14 @@
 // console.log(invert([1, -3, 3, -6, 0]))
 
 //task9
+// const fnPow = (n) => {
+//   let arr = [];
+//   for (i = 0; i <= n; i++) {
+//     arr.push(Math.pow(2, i));
+//   }
+//   return arr;
+// };
+
+// console.log(fnPow(0));
+
+//task10
