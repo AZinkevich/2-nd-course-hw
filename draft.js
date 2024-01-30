@@ -177,3 +177,13 @@
 
 
 //task8
+// const invert = (Arr) => Arr.map(el => {
+//     if (el !== 0) {
+//         return el * -1
+//     } return 0
+// })
+
+// console.log(invert([1, -3, 3, -6, 0]))
+
+
+//task9
