@@ -159,14 +159,21 @@
 //countLiter("I am very hungry");
 
 //task6
-function mango(count, price) {
-  let amount;
-  if (count >= 3 && count < 6) {
-    return (amount = price * (count - Math.floor(count / 3)));
-  } else if (count >=6) {
-    return (amount = price * (count - Math.floor(count / 3)));
-  }
-  return (amount = price * count);
-}
+// function mango(quant, price) {
+//     if (quant > 2) {
+//         return price * (quant - Math.floor(quant / 3));
+//     }
+//     return price * quant;
+// }
 
-console.log(mango(6, 3));
+// console.log(mango(3, 3));
+
+
+//task7
+// const water = 0.5
+// const litres = (time) => { return Math.floor(water * time) }
+
+// console.log(litres(3))
+
+
+//task8
