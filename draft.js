@@ -108,18 +108,19 @@
 
 // //task1
 // function str_count(a, b) {
-//     let newStr = a.split('');
-//     let filterStr = newStr.filter((str) => str.toLowerCase() === b.toLowerCase())
-//     return filterStr.length
+//   let newStr = a.split("");
+//   let filterStr = newStr.filter((str) => str.toLowerCase() === b.toLowerCase());
+//   return filterStr.length;
 // }
 
 // //task2
 // function squarSum(arr) {
-//     let squarArr = arr.map((el) => el ** 2)
-//     let squarSumArr = squarArr.reduce((a, b) => a + b)
-//     return squarSumArr
+//   let squarArr = arr.map((el) => el ** 2);
+//   const initialValue = 0;
+//   let squarSumArr = squarArr.reduce((a, b) => a + b, initialValue);
+//   return squarSumArr;
 // }
-// squarSum([1, 2, 2])
+// console.log(squarSum([]));
 
 //task3
 // function nearest_Sq(n) {
@@ -142,7 +143,7 @@
 // }
 // console.log(nearest_Sq(111));
 
-// //task3 gibrid
+// // //task3 gibrid
 // const nearest_Sq = (n) => {
 //   if (Number.isInteger(Math.sqrt(n))) {
 //     return n;
@@ -166,11 +167,13 @@
 // console.log(nearestSq(143));
 
 //task4
-// let str = "world";
+//let str = "world";
+// function solution(str){
 // let arrStr = str.split("");
 // arrStr.reverse();
 // let newStr = arrStr.join("");
-// console.log(newStr);
+// return}
+// console.log(solution('world'));
 
 //task5
 // function countLiter(str) {
@@ -182,18 +185,18 @@
 //countLiter("I am very hungry");
 
 //task6
-// function mango(quant, price) {
-//     if (quant > 2) {
-//         return price * (quant - Math.floor(quant / 3));
+// function mango(quantity, price) {
+//     if (quantity > 2) {
+//         return price * (quantity - Math.floor(quantity / 3));
 //     }
-//     return price * quant;
+//     return price * quantity;
 // }
 
 // console.log(mango(3, 3));
 
 //task7
-// const water = 0.5
-// const litres = (time) => { return Math.floor(water * time) }
+//const water = 0.5
+// const litres = (time) => { return Math.floor(0.5 * time) }
 
 // console.log(litres(3))
 
@@ -218,11 +221,11 @@
 // console.log(fnPow(0));
 
 //task10
-// const reduceFn = (arr) => {
+// const grow = (arr) => {
 //   if (arr.length > 0) {
 //     let mult = arr.reduce((a, b) => a * b);
 //     return mult;
 //   }
 //   return;
 // };
-// console.log(reduceFn([1,2,3,4]));
+// console.log(grow([1,2,3,4]));
