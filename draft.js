@@ -229,3 +229,21 @@
 //   return;
 // };
 // console.log(grow([1,2,3,4]));
+
+
+
+//FD
+sayHi()
+
+function sayHi() {
+  alert("Привет");
+}
+
+//FE
+let age = prompt("Сколько Вам лет?", 18);
+
+let welcome = (age < 18) ?
+  function() { alert("Привет!"); } :
+  function() { alert("Здравствуйте!"); };
+
+welcome();
