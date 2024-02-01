@@ -244,6 +244,8 @@ let sayHi = function() {
     alert( "Привет" );
   };
 
+sayHi()
+
 
 //Function Declaration
 let age = prompt("Сколько Вам лет?", 18);
@@ -258,7 +260,7 @@ if (age < 18) {
   }
 }
 
-welcome(); 
+welcome(); //работать не будет
 
 
 //Function Expression

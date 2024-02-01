@@ -71,7 +71,7 @@ function cub(n) {
   if (isNaN(n)) {
     return "Переданный параметр не является числом";
   } else {
-    return n ** 3;
+    return n ** 3;  
   }
 }
 
