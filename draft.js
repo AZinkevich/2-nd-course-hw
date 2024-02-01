@@ -232,16 +232,21 @@
 
 
 
-//FD
+//Function Declaration
 sayHi()
 
 function sayHi() {
   alert("Привет");
 }
 
-//FE
-let age = prompt("Сколько Вам лет?", 18);
+//Function Expression
+let sayHi = function() {
+    alert( "Привет" );
+  };
 
+
+//Function Declaration
+let age = prompt("Сколько Вам лет?", 18);
 
 if (age < 18) {
   function welcome() {
@@ -256,6 +261,7 @@ if (age < 18) {
 welcome(); 
 
 
+//Function Expression
 let age = prompt("Сколько Вам лет?", 18);
 
 let welcome = (age < 18) ?
