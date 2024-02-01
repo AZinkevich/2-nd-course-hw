@@ -242,6 +242,22 @@ function sayHi() {
 //FE
 let age = prompt("Сколько Вам лет?", 18);
 
+
+if (age < 18) {
+  function welcome() {
+    alert("Привет!");
+  }
+} else {
+  function welcome() {
+    alert("Здравствуйте!");
+  }
+}
+
+welcome(); 
+
+
+let age = prompt("Сколько Вам лет?", 18);
+
 let welcome = (age < 18) ?
   function() { alert("Привет!"); } :
   function() { alert("Здравствуйте!"); };
