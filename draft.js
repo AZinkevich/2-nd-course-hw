@@ -230,42 +230,50 @@
 // };
 // console.log(grow([1,2,3,4]));
 
-
-
 //Function Declaration
-sayHi()
+// sayHi()
 
-function sayHi() {
-  alert("Привет");
-}
+// function sayHi() {
+//   alert("Привет");
+// }
 
-//Function Expression
-let sayHi = function() {
-    alert( "Привет" );
-  };
+// //Function Expression
+// sayHi()
+// let sayHi = function() {
+//     alert( "Привет" );
+//   };
 
+// //Function Declaration
+// let age = prompt("Сколько Вам лет?", 18);
 
-//Function Declaration
-let age = prompt("Сколько Вам лет?", 18);
+// if (age < 18) {
+//   function welcome() {
+//     alert("Привет!");
+//   }
+// } else {
+//   function welcome() {
+//     alert("Здравствуйте!");
+//   }
+// }
 
-if (age < 18) {
-  function welcome() {
-    alert("Привет!");
+// welcome();
+
+// //Function Expression
+// let age = prompt("Сколько Вам лет?", 18);
+
+// let welcome = (age < 18) ?
+//   function() { alert("Привет!"); } :
+//   function() { alert("Здравствуйте!"); };
+
+// welcome();
+
+//task11
+const numSum = (n) => {
+  let accum = 0;
+  for (i = 1; i <= n; i++) {
+    accum = accum + i;
   }
-} else {
-  function welcome() {
-    alert("Здравствуйте!");
-  }
-}
+  return accum;
+};
 
-welcome(); 
-
-
-//Function Expression
-let age = prompt("Сколько Вам лет?", 18);
-
-let welcome = (age < 18) ?
-  function() { alert("Привет!"); } :
-  function() { alert("Здравствуйте!"); };
-
-welcome();
+console.log(numSum(8));
