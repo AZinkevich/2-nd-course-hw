@@ -230,3 +230,18 @@
 // };
 // console.log(grow([1,2,3,4]));
 
+// //task11
+// function removeExclamationMarks(s) {
+//   const re = /!/gi;
+//   let newStr = s.replace(re, "");
+//   return newStr;
+// }
+
+// //task12
+// var min = function(list){
+//   return Math.min(...list);
+//   }
+  
+//   var max = function(list){
+//   return Math.max(...list);
+//   }
