@@ -259,36 +259,32 @@
 // welcome();
 
 //Function Expression
-// let age = prompt("Сколько Вам лет?", 18);
+let sayHi = function() {
+    alert( "Привет" );
+  };
 
-// let welcome = (age < 18) ?
-//   function() { alert("Привет!"); } :
-//   function() { alert("Здравствуйте!"); };
 
-// welcome();
+//Function Declaration
+let age = prompt("Сколько Вам лет?", 18);
 
-// //task11
-// const numSum = (n) => {
-//   let accum = 0;
-//   for (i = 1; i <= n; i++) {
-//     accum = accum + i;
-//   }
-//   return accum;
-// };
+if (age < 18) {
+  function welcome() {
+    alert("Привет!");
+  }
+} else {
+  function welcome() {
+    alert("Здравствуйте!");
+  }
+}
 
-// console.log(numSum(50));
+welcome(); 
 
-// //task12
-// const replStr = (str) => {
-//   const re = /!/gi;
-//   let newStr = str.replace(re, "");
-//   return newStr;
-// };
 
-// replStr("!a!b@1!");
+//Function Expression
+let age = prompt("Сколько Вам лет?", 18);
 
-//task12
-const minmaxV = (arr) => {
-  return "min = " + Math.min(...arr) + ", " + "max = " + Math.max(...arr);
-};
-minmaxV([4,6,2,1,9,63,-134,566]);
+let welcome = (age < 18) ?
+  function() { alert("Привет!"); } :
+  function() { alert("Здравствуйте!"); };
+
+welcome();
